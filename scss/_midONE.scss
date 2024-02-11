@@ -38,10 +38,7 @@
     justify-content: space-evenly;
     position: absolute;
     bottom: 12lvh;
-
-    &:hover {
-      cursor: pointer;
-    }
+    margin-left: 0.8lvw;
 
     #multiONE {
       display: flex;
@@ -50,23 +47,17 @@
       align-items: center;
 
       &:hover {
-        #coffeeONE {
-          transition: all 0.5s ease-in;
-          filter: brightness(50%);
-          animation: spin 20s linear infinite;
+        cursor: pointer;
 
-          @keyframes spin {
-            100% {
-              transform: rotateZ(360deg);
-            }
-          }
+        #coffeeONE {
+          transform: rotate(45deg);
+          filter: brightness(70%);
         }
 
         #one {
-          transition: all 0.5s ease-in-out;
           width: 4.656vw;
           height: 9.43vh;
-          padding: 5.2% 0 0 6.2%;
+          padding: 5.2% 0 0 6.1%;
         }
 
         #three {
@@ -82,6 +73,7 @@
         background-position-y: 65lvh;
         border-radius: 50%;
         box-shadow: 0px 0px 15px black;
+        transition: all 0.5s ease;
       }
 
       #one {
@@ -97,6 +89,7 @@
         font-size: 25px;
         font-family: 'Poppins';
         font-weight: 700;
+        transition: all 0.3s ease;
       }
 
       #two {
@@ -129,23 +122,17 @@
       align-items: center;
 
       &:hover {
-        #coffeeONE {
-          transition: all 0.5s ease-in;
-          filter: brightness(50%);
-          animation: spin 20s linear infinite;
+        cursor: pointer;
 
-          @keyframes spin {
-            100% {
-              transform: rotateZ(360deg);
-            }
-          }
+        #coffeeONE {
+          transform: rotate(45deg);
+          filter: brightness(70%);
         }
 
         #one {
-          transition: all 0.5s ease-in-out;
           width: 4.656vw;
           height: 9.43vh;
-          padding: 5.2% 0 0 5.8%;
+          padding: 5% 0 0 5.5%;
         }
 
         #three {
@@ -161,6 +148,7 @@
         background-position-y: 65lvh;
         border-radius: 50%;
         box-shadow: 0px 0px 15px black;
+        transition: all 0.5s ease;
       }
 
       #one {
@@ -176,6 +164,7 @@
         font-size: 25px;
         font-family: 'Poppins';
         font-weight: 700;
+        transition: all 0.3s ease;
       }
 
       #two {
@@ -208,23 +197,17 @@
       align-items: center;
 
       &:hover {
-        #coffeeONE {
-          transition: all 0.5s ease-in;
-          filter: brightness(50%);
-          animation: spin 20s linear infinite;
+        cursor: pointer;
 
-          @keyframes spin {
-            100% {
-              transform: rotateZ(360deg);
-            }
-          }
+        #coffeeONE {
+          transform: rotate(45deg);
+          filter: brightness(70%);
         }
 
         #one {
-          transition: all 0.5s ease-in-out;
           width: 4.656vw;
           height: 9.43vh;
-          padding: 5.3% 0 0 5.5%;
+          padding: 5.1% 0 0 5.4%;
         }
 
         #three {
@@ -240,6 +223,7 @@
         background-position-y: 65lvh;
         border-radius: 50%;
         box-shadow: 0px 0px 15px black;
+        transition: all 0.5s ease;
       }
 
       #one {
@@ -255,6 +239,7 @@
         font-size: 25px;
         font-family: 'Poppins';
         font-weight: 700;
+        transition: all 0.3s ease;
       }
 
       #two {
@@ -287,23 +272,17 @@
       align-items: center;
 
       &:hover {
-        #coffeeONE {
-          transition: all 0.5s ease-in;
-          filter: brightness(50%);
-          animation: spin 20s linear infinite;
+        cursor: pointer;
 
-          @keyframes spin {
-            100% {
-              transform: rotateZ(360deg);
-            }
-          }
+        #coffeeONE {
+          transform: rotate(45deg);
+          filter: brightness(70%);
         }
 
         #one {
-          transition: all 0.5s ease-in-out;
           width: 4.656vw;
           height: 9.43vh;
-          padding: 5.3% 0 0 5.6%;
+          padding: 5.1% 0 0 5.2%;
         }
 
         #three {
@@ -319,6 +298,7 @@
         background-position-y: 65lvh;
         border-radius: 50%;
         box-shadow: 0px 0px 15px black;
+        transition: all 0.5s ease;
       }
 
       #one {
@@ -334,6 +314,7 @@
         font-size: 25px;
         font-family: 'Poppins';
         font-weight: 700;
+        transition: all 0.3s ease;
       }
 
       #two {

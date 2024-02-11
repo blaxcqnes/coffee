@@ -469,9 +469,7 @@
   justify-content: space-evenly;
   position: absolute;
   bottom: 12lvh;
-}
-#midONE #multies:hover {
-  cursor: pointer;
+  margin-left: 0.8lvw;
 }
 #midONE #multies #multiONE {
   display: flex;
@@ -479,21 +477,17 @@
   width: 24lvw;
   align-items: center;
 }
-#midONE #multies #multiONE:hover #coffeeONE {
-  transition: all 0.5s ease-in;
-  filter: brightness(50%);
-  animation: spin 20s linear infinite;
+#midONE #multies #multiONE:hover {
+  cursor: pointer;
 }
-@keyframes spin {
-  100% {
-    transform: rotateZ(360deg);
-  }
+#midONE #multies #multiONE:hover #coffeeONE {
+  transform: rotate(45deg);
+  filter: brightness(70%);
 }
 #midONE #multies #multiONE:hover #one {
-  transition: all 0.5s ease-in-out;
   width: 4.656vw;
   height: 9.43vh;
-  padding: 5.2% 0 0 6.2%;
+  padding: 5.2% 0 0 6.1%;
 }
 #midONE #multies #multiONE:hover #three {
   color: black;
@@ -506,6 +500,7 @@
   background-position-y: 65lvh;
   border-radius: 50%;
   box-shadow: 0px 0px 15px black;
+  transition: all 0.5s ease;
 }
 #midONE #multies #multiONE #one {
   width: 5.643lvw;
@@ -520,6 +515,7 @@
   font-size: 25px;
   font-family: "Poppins";
   font-weight: 700;
+  transition: all 0.3s ease;
 }
 #midONE #multies #multiONE #two {
   width: 19lvw;
@@ -547,21 +543,17 @@
   width: 24lvw;
   align-items: center;
 }
-#midONE #multies #multiTWO:hover #coffeeONE {
-  transition: all 0.5s ease-in;
-  filter: brightness(50%);
-  animation: spin 20s linear infinite;
+#midONE #multies #multiTWO:hover {
+  cursor: pointer;
 }
-@keyframes spin {
-  100% {
-    transform: rotateZ(360deg);
-  }
+#midONE #multies #multiTWO:hover #coffeeONE {
+  transform: rotate(45deg);
+  filter: brightness(70%);
 }
 #midONE #multies #multiTWO:hover #one {
-  transition: all 0.5s ease-in-out;
   width: 4.656vw;
   height: 9.43vh;
-  padding: 5.2% 0 0 5.8%;
+  padding: 5% 0 0 5.5%;
 }
 #midONE #multies #multiTWO:hover #three {
   color: black;
@@ -574,6 +566,7 @@
   background-position-y: 65lvh;
   border-radius: 50%;
   box-shadow: 0px 0px 15px black;
+  transition: all 0.5s ease;
 }
 #midONE #multies #multiTWO #one {
   width: 5.643lvw;
@@ -588,6 +581,7 @@
   font-size: 25px;
   font-family: "Poppins";
   font-weight: 700;
+  transition: all 0.3s ease;
 }
 #midONE #multies #multiTWO #two {
   width: 19lvw;
@@ -615,21 +609,17 @@
   width: 24lvw;
   align-items: center;
 }
-#midONE #multies #multiTHREE:hover #coffeeONE {
-  transition: all 0.5s ease-in;
-  filter: brightness(50%);
-  animation: spin 20s linear infinite;
+#midONE #multies #multiTHREE:hover {
+  cursor: pointer;
 }
-@keyframes spin {
-  100% {
-    transform: rotateZ(360deg);
-  }
+#midONE #multies #multiTHREE:hover #coffeeONE {
+  transform: rotate(45deg);
+  filter: brightness(70%);
 }
 #midONE #multies #multiTHREE:hover #one {
-  transition: all 0.5s ease-in-out;
   width: 4.656vw;
   height: 9.43vh;
-  padding: 5.3% 0 0 5.5%;
+  padding: 5.1% 0 0 5.4%;
 }
 #midONE #multies #multiTHREE:hover #three {
   color: black;
@@ -642,6 +632,7 @@
   background-position-y: 65lvh;
   border-radius: 50%;
   box-shadow: 0px 0px 15px black;
+  transition: all 0.5s ease;
 }
 #midONE #multies #multiTHREE #one {
   width: 5.643lvw;
@@ -656,6 +647,7 @@
   font-size: 25px;
   font-family: "Poppins";
   font-weight: 700;
+  transition: all 0.3s ease;
 }
 #midONE #multies #multiTHREE #two {
   width: 19lvw;
@@ -683,21 +675,17 @@
   width: 24lvw;
   align-items: center;
 }
-#midONE #multies #multiFOUR:hover #coffeeONE {
-  transition: all 0.5s ease-in;
-  filter: brightness(50%);
-  animation: spin 20s linear infinite;
+#midONE #multies #multiFOUR:hover {
+  cursor: pointer;
 }
-@keyframes spin {
-  100% {
-    transform: rotateZ(360deg);
-  }
+#midONE #multies #multiFOUR:hover #coffeeONE {
+  transform: rotate(45deg);
+  filter: brightness(70%);
 }
 #midONE #multies #multiFOUR:hover #one {
-  transition: all 0.5s ease-in-out;
   width: 4.656vw;
   height: 9.43vh;
-  padding: 5.3% 0 0 5.6%;
+  padding: 5.1% 0 0 5.2%;
 }
 #midONE #multies #multiFOUR:hover #three {
   color: black;
@@ -710,6 +698,7 @@
   background-position-y: 65lvh;
   border-radius: 50%;
   box-shadow: 0px 0px 15px black;
+  transition: all 0.5s ease;
 }
 #midONE #multies #multiFOUR #one {
   width: 5.643lvw;
@@ -724,6 +713,7 @@
   font-size: 25px;
   font-family: "Poppins";
   font-weight: 700;
+  transition: all 0.3s ease;
 }
 #midONE #multies #multiFOUR #two {
   width: 19lvw;
