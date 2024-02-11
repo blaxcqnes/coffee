@@ -1,0 +1,22 @@
+#topTWO {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  position: relative;
+
+  #BG {
+    width: auto;
+    height: 50lvh;
+    background-image: url('/images/leafPATTERNS.png');
+    background-color: #4d8b55;
+  }
+
+  #topBEANS {
+    width: 50.7lvw;
+    height: 79lvh;
+    position: absolute;
+    bottom: 8lvh;
+    left: 27lvw;
+    background-image: url('/images/topBEANS.png');
+  }
+}

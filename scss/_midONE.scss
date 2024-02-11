@@ -1,0 +1,362 @@
+#midONE {
+  position: relative;
+  height: 125lvh;
+
+  #BG {
+    height: 125lvh;
+    background-image: url('/images/paperBG.jpg');
+  }
+
+  #LandF {
+    width: 19lvw;
+    height: 38.4lvh;
+    position: absolute;
+    bottom: 78lvh;
+    left: 41lvw;
+    background-image: url('/images/leafsANDBEANS.png');
+  }
+
+  #title {
+    width: 76lvw;
+    position: absolute;
+    bottom: 92lvh;
+    left: 11.5lvw;
+    font-family: 'Poppins';
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+
+    span {
+      color: #4d8b55;
+    }
+  }
+
+  #multies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 12lvh;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    #multiONE {
+      display: flex;
+      flex-direction: column;
+      width: 24lvw;
+      align-items: center;
+
+      &:hover {
+        #coffeeONE {
+          transition: all 0.5s ease-in;
+          filter: brightness(50%);
+          animation: spin 20s linear infinite;
+
+          @keyframes spin {
+            100% {
+              transform: rotateZ(360deg);
+            }
+          }
+        }
+
+        #one {
+          transition: all 0.5s ease-in-out;
+          width: 4.656vw;
+          height: 9.43vh;
+          padding: 5.2% 0 0 6.2%;
+        }
+
+        #three {
+          color: black;
+        }
+      }
+
+      #coffeeONE {
+        background-image: url(/images/coffeeONE.jpg);
+        width: 18lvw;
+        height: 36.46lvh;
+        background-position-x: 38lvw;
+        background-position-y: 65lvh;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px black;
+      }
+
+      #one {
+        width: 5.643lvw;
+        height: 11.43lvh;
+        position: relative;
+        right: 9lvw;
+        bottom: 25lvh;
+        background-color: #4d8b55;
+        color: white;
+        padding: 6.6% 0 0 8%;
+        border-radius: 50%;
+        font-size: 25px;
+        font-family: 'Poppins';
+        font-weight: 700;
+      }
+
+      #two {
+        width: 19lvw;
+        position: relative;
+        bottom: 7lvh;
+        font-size: 28px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: black;
+        text-align: center;
+      }
+
+      #three {
+        position: relative;
+        bottom: 8lvh;
+        margin-top: 2lvh;
+        width: 22lvw;
+        color: #4d8b55;
+        font-size: 16px;
+        font-family: 'Poppins';
+        text-align: center;
+      }
+    }
+
+    #multiTWO {
+      display: flex;
+      flex-direction: column;
+      width: 24lvw;
+      align-items: center;
+
+      &:hover {
+        #coffeeONE {
+          transition: all 0.5s ease-in;
+          filter: brightness(50%);
+          animation: spin 20s linear infinite;
+
+          @keyframes spin {
+            100% {
+              transform: rotateZ(360deg);
+            }
+          }
+        }
+
+        #one {
+          transition: all 0.5s ease-in-out;
+          width: 4.656vw;
+          height: 9.43vh;
+          padding: 5.2% 0 0 5.8%;
+        }
+
+        #three {
+          color: black;
+        }
+      }
+
+      #coffeeONE {
+        background-image: url(/images/coffeeTWO.jpg);
+        width: 18lvw;
+        height: 36.46lvh;
+        background-position-x: 38lvw;
+        background-position-y: 65lvh;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px black;
+      }
+
+      #one {
+        width: 5.643lvw;
+        height: 11.43lvh;
+        position: relative;
+        right: 9lvw;
+        bottom: 25lvh;
+        background-color: #906534;
+        color: white;
+        padding: 6.6% 0 0 7.2%;
+        border-radius: 50%;
+        font-size: 25px;
+        font-family: 'Poppins';
+        font-weight: 700;
+      }
+
+      #two {
+        width: 19lvw;
+        position: relative;
+        bottom: 7lvh;
+        font-size: 28px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: black;
+        text-align: center;
+      }
+
+      #three {
+        position: relative;
+        bottom: 8lvh;
+        margin-top: 2lvh;
+        width: 22lvw;
+        color: #906534;
+        font-size: 16px;
+        font-family: 'Poppins';
+        text-align: center;
+      }
+    }
+
+    #multiTHREE {
+      display: flex;
+      flex-direction: column;
+      width: 24lvw;
+      align-items: center;
+
+      &:hover {
+        #coffeeONE {
+          transition: all 0.5s ease-in;
+          filter: brightness(50%);
+          animation: spin 20s linear infinite;
+
+          @keyframes spin {
+            100% {
+              transform: rotateZ(360deg);
+            }
+          }
+        }
+
+        #one {
+          transition: all 0.5s ease-in-out;
+          width: 4.656vw;
+          height: 9.43vh;
+          padding: 5.3% 0 0 5.5%;
+        }
+
+        #three {
+          color: black;
+        }
+      }
+
+      #coffeeONE {
+        background-image: url(/images/coffeeTHREE.jpg);
+        width: 18lvw;
+        height: 36.46lvh;
+        background-position-x: 38lvw;
+        background-position-y: 65lvh;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px black;
+      }
+
+      #one {
+        width: 5.643lvw;
+        height: 11.43lvh;
+        position: relative;
+        right: 9lvw;
+        bottom: 25lvh;
+        background-color: #906534;
+        color: white;
+        padding: 6.8% 0 0 7.4%;
+        border-radius: 50%;
+        font-size: 25px;
+        font-family: 'Poppins';
+        font-weight: 700;
+      }
+
+      #two {
+        width: 19lvw;
+        position: relative;
+        bottom: 7lvh;
+        font-size: 28px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: black;
+        text-align: center;
+      }
+
+      #three {
+        position: relative;
+        bottom: 8lvh;
+        margin-top: 2lvh;
+        width: 22lvw;
+        color: #906534;
+        font-size: 16px;
+        font-family: 'Poppins';
+        text-align: center;
+      }
+    }
+
+    #multiFOUR {
+      display: flex;
+      flex-direction: column;
+      width: 24lvw;
+      align-items: center;
+
+      &:hover {
+        #coffeeONE {
+          transition: all 0.5s ease-in;
+          filter: brightness(50%);
+          animation: spin 20s linear infinite;
+
+          @keyframes spin {
+            100% {
+              transform: rotateZ(360deg);
+            }
+          }
+        }
+
+        #one {
+          transition: all 0.5s ease-in-out;
+          width: 4.656vw;
+          height: 9.43vh;
+          padding: 5.3% 0 0 5.6%;
+        }
+
+        #three {
+          color: black;
+        }
+      }
+
+      #coffeeONE {
+        background-image: url(/images/coffeeFOUR.jpg);
+        width: 18lvw;
+        height: 36.46lvh;
+        background-position-x: 38lvw;
+        background-position-y: 65lvh;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px black;
+      }
+
+      #one {
+        width: 5.643lvw;
+        height: 11.43lvh;
+        position: relative;
+        right: 9lvw;
+        bottom: 25lvh;
+        background-color: #906534;
+        color: white;
+        padding: 6.9% 0 0 7.3%;
+        border-radius: 50%;
+        font-size: 25px;
+        font-family: 'Poppins';
+        font-weight: 700;
+      }
+
+      #two {
+        width: 19lvw;
+        position: relative;
+        bottom: 7lvh;
+        font-size: 28px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: black;
+        text-align: center;
+      }
+
+      #three {
+        position: relative;
+        bottom: 8lvh;
+        margin-top: 2lvh;
+        width: 22lvw;
+        color: #906534;
+        font-size: 16px;
+        font-family: 'Poppins';
+        text-align: center;
+      }
+    }
+  }
+}

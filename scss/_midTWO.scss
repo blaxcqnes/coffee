@@ -1,0 +1,105 @@
+#midTWO {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 95lvh;
+  overflow: hidden;
+
+  #left {
+    width: 33.35lvw;
+    position: relative;
+
+    #imageONE {
+      height: 212lvh;
+      background-image: url('/images/midCOFFEE.jpg');
+      zoom: 45%;
+      background-repeat: no-repeat;
+    }
+
+    #imageTWO {
+      width: 10.5lvw;
+      height: 21.3lvh;
+      position: absolute;
+      bottom: 65lvh;
+      left: 19lvw;
+      background-image: url('/images/stamp.png');
+    }
+  }
+
+  #mid {
+    width: 33.35lvw;
+    position: relative;
+
+    #imageONE {
+      background-color: #4d8b55;
+      height: 95lvh;
+    }
+
+    #imageTWO {
+      background-image: url(/images/leafsANDBEANS.png);
+      width: 19.5lvw;
+      height: 38lvh;
+      position: absolute;
+      bottom: 40lvh;
+      left: 7lvw;
+      transform: scale(1.6);
+    }
+
+    #one {
+      position: absolute;
+      bottom: 42lvh;
+      left: 3lvw;
+      font-family: 'Poppins';
+      font-weight: 700;
+      font-size: 66px;
+      color: white;
+
+      span {
+        color: black;
+      }
+    }
+
+    #two {
+      width: 27lvw;
+      position: absolute;
+      bottom: 28lvh;
+      left: 3lvw;
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 17px;
+      color: white;
+    }
+
+    #buttonONE {
+      width: 15.5lvw;
+      height: 9lvh;
+      position: absolute;
+      bottom: 10lvh;
+      left: 8lvw;
+      background-color: #2f2f2f;
+      color: white;
+      font-family: 'Poppins';
+      font-size: 13px;
+      border-radius: 35px;
+      border: none;
+      text-transform: capitalize;
+
+      &:hover {
+        background-color: #525252;
+        cursor: pointer;
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+      }
+    }
+  }
+
+  #right {
+    width: 33.35lvw;
+
+    #imageONE {
+      height: 212lvh;
+      background-image: url('/images/aroma.jpg');
+      zoom: 45%;
+      background-repeat: no-repeat;
+    }
+  }
+}

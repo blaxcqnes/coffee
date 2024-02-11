@@ -1,0 +1,546 @@
+#bottomTWO {
+  height: 250lvh;
+  background-color: #fffdfb;
+  position: relative;
+
+  #first {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12.5lvh;
+    align-items: center;
+
+    #one {
+      font-family: 'Poppins';
+      font-size: 17px;
+      font-weight: 600;
+      color: #4d8b55;
+      text-transform: capitalize;
+    }
+
+    #two {
+      font-family: 'Poppins';
+      font-size: 45px;
+      font-weight: 600;
+      color: black;
+      text-transform: capitalize;
+    }
+
+    #three {
+      width: 52lvw;
+      margin-top: 1.5lvh;
+      font-family: 'Poppins';
+      font-size: 16px;
+      font-weight: 400;
+      color: black;
+      text-transform: capitalize;
+      text-align: center;
+    }
+  }
+
+  #sec {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    #left {
+      width: 45lvw;
+      height: 95lvh;
+      margin-top: 7lvh;
+      margin-left: 3lvw;
+      background-image: url('/images/ethioFIRST.jpg');
+      background-repeat: no-repeat;
+    }
+
+    #right {
+      display: flex;
+      flex-direction: column;
+      margin-top: 12.5lvh;
+      margin-left: 4lvw;
+
+      #stars {
+        display: flex;
+        flex-direction: row;
+
+        #star {
+          display: flex;
+          flex-direction: row;
+          width: 21px;
+          height: 21px;
+          padding: 12px;
+          background-image: url('/images/star.svg');
+        }
+      }
+
+      #desc {
+        display: flex;
+        flex-direction: column;
+
+        #one {
+          margin-top: 2lvh;
+          font-family: 'Poppins';
+          font-size: 30px;
+          font-weight: 700;
+          color: black;
+        }
+
+        #two {
+          width: 42lvw;
+          font-family: 'Poppins';
+          font-size: 14px;
+          line-height: 30px;
+          font-weight: 400;
+          color: #646464;
+        }
+      }
+
+      #checks {
+        display: flex;
+        flex-direction: column;
+        width: 26lvw;
+        margin-top: 2.5lvh;
+
+        #checkONE {
+          display: flex;
+          flex-direction: row;
+          align-items: end;
+          margin-left: 2lvw;
+
+          #mark {
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            background-image: url('/images/check.svg');
+          }
+
+          #one {
+            width: 42lvw;
+            margin-left: 1lvw;
+            font-family: 'Poppins';
+            font-size: 13px;
+            font-weight: 400;
+            color: #646464;
+            text-transform: capitalize;
+          }
+        }
+
+        #checkTWO {
+          display: flex;
+          flex-direction: row;
+          align-items: end;
+          margin-top: 0.5lvh;
+          margin-left: 2lvw;
+
+          #mark {
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            background-image: url('/images/check.svg');
+          }
+
+          #one {
+            width: 42lvw;
+            margin-left: 1lvw;
+            font-family: 'Poppins';
+            font-size: 13px;
+            font-weight: 400;
+            color: #646464;
+            text-transform: capitalize;
+          }
+        }
+
+        #checkTHREE {
+          display: flex;
+          flex-direction: row;
+          align-items: end;
+          margin-top: 0.5lvh;
+          margin-left: 2lvw;
+
+          #mark {
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            background-image: url('/images/check.svg');
+          }
+
+          #one {
+            width: 42lvw;
+            margin-left: 1lvw;
+            font-family: 'Poppins';
+            font-size: 13px;
+            font-weight: 400;
+            color: #646464;
+            text-transform: capitalize;
+          }
+        }
+
+        #checkFOUR {
+          display: flex;
+          flex-direction: row;
+          align-items: end;
+          margin-top: 0.5lvh;
+          margin-left: 2lvw;
+
+          #mark {
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            background-image: url('/images/check.svg');
+          }
+
+          #one {
+            width: 42lvw;
+            margin-left: 1lvw;
+            font-family: 'Poppins';
+            font-size: 13px;
+            font-weight: 400;
+            color: #646464;
+            text-transform: capitalize;
+          }
+        }
+      }
+
+      #prices {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5lvh;
+        margin-left: 3lvw;
+        align-items: center;
+
+        #one {
+          margin-right: 1lvw;
+          color: grey;
+          font-family: 'Poppins';
+          font-weight: 600;
+          font-size: 24px;
+          text-decoration: line-through;
+        }
+
+        #two {
+          color: rgb(204, 38, 38);
+          font-family: 'Poppins';
+          font-weight: 700;
+          font-size: 30px;
+        }
+      }
+
+      #buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 10lvh;
+
+        #buttonONE {
+          width: 15.5lvw;
+          height: 9lvh;
+          background-color: #4d8b55;
+          color: white;
+          font-family: 'Poppins';
+          font-size: 13px;
+          border-radius: 35px;
+          border: none;
+          text-transform: capitalize;
+
+          &:hover {
+            background-color: #525252;
+            cursor: pointer;
+            transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+          }
+        }
+
+        #buttonTWO {
+          width: 15.5lvw;
+          height: 9lvh;
+          margin-right: 6lvw;
+          background-color: black;
+          color: white;
+          font-family: 'Poppins';
+          font-size: 13px;
+          border-radius: 35px;
+          border: none;
+          text-transform: capitalize;
+
+          &:hover {
+            background-color: #525252;
+            cursor: pointer;
+            transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+          }
+        }
+      }
+    }
+  }
+
+  #products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    #first {
+      display: flex;
+      flex-direction: column;
+      margin-top: 12.5lvh;
+      align-items: center;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      #imageONE {
+        width: 17lvw;
+        height: 49lvh;
+        background-image: url('/images/peru.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+
+        &:hover {
+          transition: all 0.5s ease;
+          filter: brightness(60%);
+        }
+      }
+
+      #stars {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3lvh;
+
+        #star {
+          display: flex;
+          flex-direction: row;
+          width: 18px;
+          height: 18px;
+          padding: 9px;
+          background-image: url('/images/star.svg');
+        }
+      }
+
+      #desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2lvh;
+
+        #one {
+          font-family: 'Poppins';
+          font-size: 20px;
+          font-weight: 600;
+          color: black;
+        }
+
+        #two {
+          font-family: 'Poppins';
+          font-size: 17px;
+          font-weight: 600;
+          color: #4d8b55;
+          margin-top: 1lvh;
+        }
+      }
+    }
+
+    #sec {
+      display: flex;
+      flex-direction: column;
+      margin-top: 12.5lvh;
+      align-items: center;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      #imageONE {
+        width: 17lvw;
+        height: 49lvh;
+        background-image: url('/images/peru.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+
+        &:hover {
+          transition: all 0.5s ease;
+          filter: brightness(60%);
+        }
+      }
+
+      #stars {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3lvh;
+
+        #star {
+          display: flex;
+          flex-direction: row;
+          width: 18px;
+          height: 18px;
+          padding: 9px;
+          background-image: url('/images/star.svg');
+        }
+      }
+
+      #desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2lvh;
+
+        #one {
+          font-family: 'Poppins';
+          font-size: 20px;
+          font-weight: 600;
+          color: black;
+        }
+
+        #two {
+          font-family: 'Poppins';
+          font-size: 17px;
+          font-weight: 600;
+          color: #4d8b55;
+          margin-top: 1lvh;
+        }
+      }
+    }
+
+    #third {
+      display: flex;
+      flex-direction: column;
+      margin-top: 12.5lvh;
+      align-items: center;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      #imageONE {
+        width: 17lvw;
+        height: 49lvh;
+        background-image: url('/images/peru.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+
+        &:hover {
+          transition: all 0.5s ease;
+          filter: brightness(60%);
+        }
+      }
+
+      #stars {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3lvh;
+
+        #star {
+          display: flex;
+          flex-direction: row;
+          width: 18px;
+          height: 18px;
+          padding: 9px;
+          background-image: url('/images/star.svg');
+        }
+      }
+
+      #desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2lvh;
+
+        #one {
+          font-family: 'Poppins';
+          font-size: 20px;
+          font-weight: 600;
+          color: black;
+        }
+
+        #two {
+          font-family: 'Poppins';
+          font-size: 17px;
+          font-weight: 600;
+          color: #4d8b55;
+          margin-top: 1lvh;
+        }
+      }
+    }
+
+    #fourth {
+      display: flex;
+      flex-direction: column;
+      margin-top: 12.5lvh;
+      align-items: center;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      #imageONE {
+        width: 17lvw;
+        height: 49lvh;
+        background-image: url('/images/peru.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+
+        &:hover {
+          transition: all 0.5s ease;
+          filter: brightness(60%);
+        }
+      }
+
+      #stars {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3lvh;
+
+        #star {
+          display: flex;
+          flex-direction: row;
+          width: 18px;
+          height: 18px;
+          padding: 9px;
+          background-image: url('/images/star.svg');
+        }
+      }
+
+      #desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2lvh;
+
+        #one {
+          font-family: 'Poppins';
+          font-size: 20px;
+          font-weight: 600;
+          color: black;
+        }
+
+        #two {
+          font-family: 'Poppins';
+          font-size: 17px;
+          font-weight: 600;
+          color: #4d8b55;
+          margin-top: 1lvh;
+        }
+      }
+    }
+  }
+
+  #button {
+    width: 15.5lvw;
+    height: 9lvh;
+    position: absolute;
+    bottom: 13lvh;
+    left: 42lvw;
+    background-color: #4d8b55;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 13px;
+    border-radius: 35px;
+    border: none;
+    text-transform: capitalize;
+
+    &:hover {
+      background-color: #525252;
+      cursor: pointer;
+      transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+  }
+}

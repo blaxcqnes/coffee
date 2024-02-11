@@ -1,0 +1,13 @@
+ mobile 500-766px
+
+ medMobile 767px
+
+ small 768px - 991px
+
+ medium: 992px - 1199px
+
+ large: 1200px
+
+ midLarge: 1440px
+
+ xLarge: 2560px

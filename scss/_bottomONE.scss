@@ -1,0 +1,112 @@
+#bottomONE {
+  display: flex;
+  flex-direction: column;
+  height: 60lvh;
+  position: relative;
+
+  #BG {
+    width: inherit;
+    height: inherit;
+    background-image: url('/images/greenBEANS.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(85%);
+    opacity: 0.5;
+  }
+
+  #stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 19lvh;
+    left: 7.5lvw;
+
+    #first {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-right: 70px;
+      padding-left: 20px;
+
+      #one {
+        font-family: 'Poppins';
+        font-size: 90px;
+        font-weight: 700;
+        color: white;
+      }
+
+      #two {
+        font-family: 'Poppins';
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+      }
+    }
+
+    #sec {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 70px 0 20px;
+
+      #one {
+        font-family: 'Poppins';
+        font-size: 90px;
+        font-weight: 700;
+        color: white;
+      }
+
+      #two {
+        font-family: 'Poppins';
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+      }
+    }
+
+    #third {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 70px 0 20px;
+
+      #one {
+        font-family: 'Poppins';
+        font-size: 90px;
+        font-weight: 700;
+        color: white;
+      }
+
+      #two {
+        font-family: 'Poppins';
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+      }
+    }
+
+    #fourth {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-right: 20px;
+      padding-left: 20px;
+
+      #one {
+        font-family: 'Poppins';
+        font-size: 90px;
+        font-weight: 700;
+        color: white;
+      }
+
+      #two {
+        font-family: 'Poppins';
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+#midFOUR {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  #BG {
+    width: inherit;
+    height: 110lvh;
+    background-image: url('/images/thumbnailCOFFEE.jpg');
+    background-position-x: 0.5lvw;
+    filter: brightness(40%);
+    opacity: 0.5;
+  }
+
+  #one {
+    position: absolute;
+    bottom: 80lvh;
+    left: 17lvw;
+    font-family: 'Poppins';
+    font-size: 73px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #4d8b55;
+  }
+
+  #two {
+    position: absolute;
+    bottom: 66lvh;
+    left: 35lvw;
+    font-family: 'Poppins';
+    font-size: 73px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+  }
+
+  #play {
+    width: 8lvw;
+    height: 16lvh;
+    position: absolute;
+    bottom: 43lvh;
+    left: 46.6lvw;
+    background-image: url('/images/playBUTTON.svg');
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  #buttonONE {
+    width: 15.5lvw;
+    height: 9lvh;
+    position: absolute;
+    bottom: 20lvh;
+    left: 43lvw;
+    background-color: #2f2f2f;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 13px;
+    border-radius: 35px;
+    border: none;
+    text-transform: capitalize;
+
+    &:hover {
+      background-color: #525252;
+      cursor: pointer;
+      transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+  }
+}

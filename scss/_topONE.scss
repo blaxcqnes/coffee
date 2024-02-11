@@ -1,0 +1,273 @@
+#topONE {
+  width: inherit;
+  height: 120lvh;
+
+  #BG {
+    width: inherit;
+    height: inherit;
+    background-image: url('/images/topCOFFE.jpg');
+    filter: brightness(30%);
+
+    @include breakPoints(mobile) {
+      width: 500px !important;
+      height: 500px;
+      background-repeat: no-repeat;
+    }
+
+    @include breakPoints(laptop) {
+      width: 1024px;
+      height: 1024px;
+      background-repeat: no-repeat;
+    }
+
+    @include breakPoints(large) {
+      width: 1440px;
+      height: 900px;
+      background-repeat: no-repeat;
+    }
+
+    @include breakPoints(xLarge) {
+      width: 2560px;
+      height: 1600px;
+      filter: brightness(25%);
+    }
+  }
+
+  #above {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: inherit;
+    height: 14lvh;
+    position: relative;
+    bottom: 116lvh;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+
+    @include breakPoints(mobile) {
+      width: 100%;
+      height: 50lvh;
+    }
+
+    #left {
+      display: flex;
+      flex-direction: row;
+      width: 20lvw;
+      height: 4lvh;
+      position: absolute;
+      top: 3lvh;
+      left: 3lvw;
+      align-items: center;
+
+      @include breakPoints(mobile) {
+        display: none;
+      }
+
+      p {
+        margin-left: 3lvw;
+        font-family: 'Poppins';
+        font-size: 13.5px;
+        text-transform: uppercase;
+        color: antiquewhite;
+      }
+
+      #insta {
+        margin-left: 1lvw;
+        width: 19px;
+        height: 19px;
+        background-image: url('/images/instagram.svg');
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          width: 23px;
+          height: 23px;
+        }
+      }
+
+      #telegram {
+        margin-left: 0.7lvw;
+        width: 19px;
+        height: 19px;
+        background-image: url('/images/telegram.svg');
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          width: 23px;
+          height: 23px;
+        }
+      }
+
+      #x {
+        margin-left: 0.7lvw;
+        width: 21px;
+        height: 21px;
+        background-image: url('/images/x.svg');
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          width: 25px;
+          height: 25px;
+        }
+      }
+
+      #youtube {
+        margin-left: 0.7lvw;
+        width: 20px;
+        height: 20px;
+        background-image: url('/images/youtube.svg');
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+
+    #mid {
+      width: 6.55lvw;
+      height: 12.4lvh;
+      position: absolute;
+      left: 47lvw;
+
+      @include breakPoints(mobile) {
+        width: 12.55lvw;
+        height: 16.4lvh;
+        left: 53lvw;
+      }
+    }
+
+    #right {
+      display: flex;
+      flex-direction: row;
+      width: 10lvw;
+      height: 4lvh;
+      position: absolute;
+      top: 2.5lvh;
+      left: 85lvw;
+      align-items: center;
+
+      @include breakPoints(mobile) {
+        display: none;
+      }
+
+      #user {
+        width: 28px;
+        height: 28px;
+        background-image: url('/images/user.svg');
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          width: 33px;
+          height: 33px;
+        }
+      }
+
+      #bag {
+        margin-left: 1.5lvw;
+        width: 28px;
+        height: 28px;
+        background-image: url('/images/bag.svg');
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          width: 33px;
+          height: 33px;
+        }
+      }
+
+      #search {
+        margin-left: 1.5lvw;
+        width: 28px;
+        height: 28px;
+        transition: all 0.2s ease-in-out;
+        background-image: url('/images/search.svg');
+
+        &:hover {
+          cursor: pointer;
+          width: 33px;
+          height: 33px;
+        }
+      }
+    }
+  }
+
+  #nav {
+    position: absolute;
+    top: 25lvh;
+    right: 24lvw;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      width: 41lvw;
+      list-style: none;
+      font-family: 'Poppins';
+      text-transform: uppercase;
+      color: antiquewhite;
+
+      li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        span {
+          width: 25px;
+          height: 25px;
+          padding-left: 2%;
+          background-image: url('/images/right-arrow.svg');
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      #rest {
+        padding-left: 2%;
+      }
+    }
+  }
+
+  #titleONE {
+    display: flex;
+    flex-direction: column;
+    width: 50.6lvw;
+    position: absolute;
+    top: 20lvw;
+    left: 26lvw;
+    // z-index: 2;
+
+    #one {
+      color: antiquewhite;
+      font-size: 75px;
+      font-family: 'Poppins';
+      font-weight: 700;
+      text-transform: capitalize;
+      text-align: center;
+
+      span {
+        color: #4d8b55;
+      }
+    }
+
+    #two {
+      width: 48lvw;
+      margin-top: 2lvh;
+      margin-bottom: 6lvh;
+      color: antiquewhite;
+      font-size: 16px;
+      font-family: 'Poppins';
+      font-weight: 400;
+      text-transform: capitalize;
+      text-align: center;
+    }
+  }
+}

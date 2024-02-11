@@ -1,0 +1,179 @@
+#topTHREE {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 95lvh;
+  background-color: white;
+
+  #left {
+    width: 41.45lvw;
+
+    #one {
+      margin-top: 20lvh;
+      font-family: 'Poppins';
+      font-size: 50px;
+      color: black;
+      font-weight: 700;
+
+      span {
+        color: #4d8b55;
+      }
+    }
+
+    #two {
+      margin-top: 2lvh;
+      font-family: 'Poppins';
+      font-size: 16px;
+      color: black;
+    }
+
+    #download {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 14lvw;
+      margin-top: 4lvh;
+      margin-left: 4lvw;
+
+      #imgONE {
+        width: 40px;
+        height: 40px;
+        background-image: url('/images/download.svg');
+      }
+
+      span {
+        margin-left: 1lvw;
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    #callUS {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 21lvw;
+      margin-top: 3lvh;
+      margin-left: 4.2lvw;
+
+      #imgTWO {
+        width: 40px;
+        height: 40px;
+        background-image: url('/images/call.svg');
+      }
+
+      p {
+        margin-left: 0.87lvw;
+        font-family: 'Poppins';
+        font-size: 15px;
+
+        span {
+          margin-left: 0.1lvw;
+          font-family: 'Poppins';
+          font-size: 16px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    #buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 7lvh;
+
+      #buttonONE {
+        width: 15.5lvw;
+        height: 9lvh;
+        background-color: #4d8b55;
+        color: white;
+        font-family: 'Poppins';
+        font-size: 13px;
+        border-radius: 35px;
+        border: none;
+        text-transform: capitalize;
+
+        &:hover {
+          background-color: #525252;
+          cursor: pointer;
+          transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+      }
+
+      #buttonTWO {
+        width: 15.5lvw;
+        height: 9lvh;
+        margin-right: 6lvw;
+        background-color: black;
+        color: white;
+        font-family: 'Poppins';
+        font-size: 13px;
+        border-radius: 35px;
+        border: none;
+        text-transform: capitalize;
+
+        &:hover {
+          background-color: #525252;
+          cursor: pointer;
+          transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+      }
+    }
+  }
+
+  #right {
+    width: 39.2lvw;
+    height: 76lvh;
+    margin-top: 11lvh;
+    background-image: url('/images/pouringBEANS.jpg');
+
+    #one {
+      width: 10.862lvw;
+      height: 22lvh;
+      margin: 0;
+      padding: 6%;
+      background-color: white;
+      box-shadow: 0px 0px 12px 1px #7a7a7a;
+      text-align: center;
+      border-radius: 50%;
+      font-family: 'Poppins';
+      font-size: 27px;
+      font-weight: 700;
+
+      :before {
+        content: '';
+        width: 0.507lvw;
+        height: 1.026lvh;
+        position: absolute;
+        top: 178.67lvh;
+        right: 31.99lvw;
+        padding: 6%;
+        border: 5px dotted #4d8b55;
+        border-radius: 50%;
+        animation: spin 30s linear infinite;
+
+        @keyframes spin {
+          100% {
+            transform: rotateZ(360deg);
+          }
+        }
+      }
+    }
+
+    span {
+      font-size: 43px;
+      color: #4d8b55;
+    }
+  }
+}

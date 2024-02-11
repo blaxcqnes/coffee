@@ -1,0 +1,186 @@
+#midTHREE {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100lvh;
+  background-color: white;
+
+  #allONE {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15lvh;
+    margin-left: 1.5lvw;
+
+    #grades {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      #imageONE {
+        background-image: url('/images/bioRESEACH.svg');
+        width: 4lvw;
+        height: 7.9lvh;
+      }
+
+      #one {
+        width: 20lvw;
+        margin-left: 1.5lvw;
+        font-family: 'Poppins';
+        font-size: 14px;
+
+        span {
+          font-size: 21px;
+          font-family: 'Poppins';
+          font-weight: 700;
+        }
+      }
+    }
+
+    #sort {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 16lvh;
+
+      #imageONE {
+        background-image: url('/images/threebeansWBG.svg');
+        width: 3.86lvw;
+        height: 7.77lvh;
+      }
+
+      #one {
+        width: 20lvw;
+        margin-left: 1.5lvw;
+        font-family: 'Poppins';
+        font-size: 14px;
+
+        span {
+          font-size: 21px;
+          font-family: 'Poppins';
+          font-weight: 700;
+        }
+      }
+    }
+
+    #proper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 16lvh;
+
+      #imageONE {
+        background-image: url('/images/coffeePROCESS.svg');
+        width: 3.8lvw;
+        height: 7.8lvh;
+      }
+
+      #one {
+        width: 20lvw;
+        margin-left: 1.5lvw;
+        font-family: 'Poppins';
+        font-size: 14px;
+
+        span {
+          font-size: 21px;
+          font-family: 'Poppins';
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  #backgroundFOUR {
+    display: flex;
+    width: 46lvw;
+    height: 74lvh;
+    margin-top: 17lvh;
+  }
+
+  #allTWO {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15lvh;
+    margin-right: 1.5lvw;
+
+    #quality {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      #one {
+        width: 20lvw;
+        margin-right: 1.5lvw;
+        font-family: 'Poppins';
+        font-size: 14px;
+        text-align: end;
+
+        span {
+          font-size: 21px;
+          font-family: 'Poppins';
+          font-weight: 700;
+        }
+      }
+
+      #imageONE {
+        background-image: url('/images/shoppingBAG.svg');
+        width: 4lvw;
+        height: 7.9lvh;
+      }
+    }
+
+    #grind {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 16lvh;
+
+      #one {
+        width: 20lvw;
+        margin-right: 1.5lvw;
+        font-family: 'Poppins';
+        font-size: 14px;
+        text-align: end;
+
+        span {
+          font-size: 21px;
+          font-family: 'Poppins';
+          font-weight: 700;
+        }
+      }
+
+      #imageONE {
+        background-image: url('/images/grind.svg');
+        width: 3.8lvw;
+        height: 7.77lvh;
+      }
+    }
+
+    #aroma {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: auto;
+      margin-top: 16lvh;
+
+      #one {
+        width: 20lvw;
+        margin-right: 1.5lvw;
+        font-family: 'Poppins';
+        font-size: 14px;
+        text-align: end;
+
+        span {
+          font-size: 21px;
+          font-family: 'Poppins';
+          font-weight: 700;
+        }
+      }
+
+      #imageONE {
+        background-image: url('/images/aromaCOFFEE.svg');
+        width: 3.8lvw;
+        height: 7.8lvh;
+      }
+    }
+  }
+}

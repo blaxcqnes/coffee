@@ -1,0 +1,22 @@
+@import '../scss/mediaQuery';
+@import '../scss/container';
+@import '../scss/topONE';
+@import '../scss/topTWO';
+@import '../scss/topTHREE';
+@import '../scss/midONE';
+@import '../scss/midTWO';
+@import '../scss/midTHREE';
+@import '../scss/midFOUR';
+@import '../scss/bottomONE';
+@import '../scss/bottomTWO';
+@import '../scss/bottomTHREE';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1c1c;
+}
